@@ -1,2 +1,3 @@
-# security_Assignment2
-Mobile Devices Security assignment 2 of University Carlos III of Madrid
+# Mobile Devices Security
+
+This repository contains the 2nd assignment of the UC3M Mobile Devices Security course.
