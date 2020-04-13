@@ -1,2 +1,3 @@
-# security_Assignment3
-3rd assignment mobile devices security UC3M
+# Mobile Devices Security
+
+This repository contains the 3rd assignment of the UC3M Mobile Devices Security course.
