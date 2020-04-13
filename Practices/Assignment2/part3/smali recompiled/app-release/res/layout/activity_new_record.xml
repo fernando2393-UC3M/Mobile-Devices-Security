@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:weightSum="1.0">
+        <TextView android:textSize="25.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/text_view_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/new_record" android:layout_weight="0.7" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/Identifier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:weightSum="1.0">
+        <EditText android:id="@id/message_descriptor" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/descriptor" android:layout_weight="0.7" android:inputType="textAutoCorrect|textCapSentences" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/Username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="200.0dip" android:weightSum="1.0">
+        <EditText android:id="@id/message_username" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/username" android:layout_weight="0.7" android:inputType="textAutoCorrect|textCapSentences" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/Password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="300.0dip" android:weightSum="1.0">
+        <EditText android:id="@id/message_password" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/password" android:layout_weight="0.7" android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/loginButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:weightSum="1.0" android:layout_alignParentBottom="true">
+        <Button android:id="@id/submitButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/submit" android:layout_weight="0.7" />
+    </LinearLayout>
+</RelativeLayout>
